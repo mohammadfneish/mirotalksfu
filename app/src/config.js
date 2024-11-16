@@ -376,7 +376,7 @@ module.exports = {
             will be redirected to a specified URL. If enabled false the default '/newroom' URL will be used.
         */
         enabled: true,
-        url: 'https://letsmeet.ilearncenters.com',
+        url: 'https://ilearncenters.com',
     },
     ui: {
         /*
