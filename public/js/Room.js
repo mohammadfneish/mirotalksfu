@@ -398,7 +398,6 @@ function refreshMainButtonsToolTipPlacement() {
         setTippy('snapshotRoomButton', 'Snapshot screen, window, or tab', placement);
         setTippy('settingsButton', 'Toggle the settings', placement);
         setTippy('restartICEButton', 'Restart ICE', placement);
-        setTippy('aboutButton', 'About this project', placement);
 
         // Bottom buttons
         setTippy('toggleExtraButton', 'Toggle extra buttons', bPlacement);
@@ -1450,7 +1449,6 @@ function roomIsReady() {
     BUTTONS.settings.lobbyButton && show(lobbyButton);
     BUTTONS.settings.sendEmailInvitation && show(sendEmailInvitation);
     if (rc.recording.recSyncServerRecording) show(roomRecordingServer);
-    BUTTONS.main.aboutButton && show(aboutButton);
     if (!DetectRTC.isMobileDevice) show(pinUnpinGridDiv);
     if (!isSpeechSynthesisSupported) hide(speechMsgDiv);
     handleButtons();
@@ -2044,9 +2042,7 @@ function handleButtons() {
     unlockRoomButton.onclick = () => {
         rc.roomAction('unlock');
     };
-    aboutButton.onclick = () => {
-        showAbout();
-    };
+    
     restartICEButton.onclick = async () => {
         await rc.restartIce();
     };
