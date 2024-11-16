@@ -248,7 +248,7 @@ module.exports = {
         basePath: 'https://api.heygen.com',
         apiKey: '',
         systemLimit:
-            'You are a streaming avatar from MiroTalk SFU, an industry-leading product that specialize in videos communications.',
+            'You are a streaming avatar from iLearncenters Meet, an industry-leading product that specialize in videos communications.',
     },
     email: {
         /*
@@ -293,7 +293,7 @@ module.exports = {
                 - Callback URLs: Enter the URL for your Express server (e.g., `https://yourserver.com/mattermost`).
                 - Request Method: Select POST.
                 - Enable Autocomplete: Check the box for Autocomplete.
-                - Autocomplete Description: Provide a brief description (e.g., `Get MiroTalk SFU meeting room`).
+                - Autocomplete Description: Provide a brief description (e.g., `Get iLearncenters Meet meeting room`).
             3. Save the slash command and copy the generated token (YourMattermostToken).   
         */
         enabled: false,
@@ -384,7 +384,7 @@ module.exports = {
         */
         brand: {
             app: {
-                name: 'MiroTalk SFU',
+                name: 'iLearncenters Meet',
                 title: 'iLearcenters Online Meeting Platform',
                 description:
                     'Start your next video call with a single click. No download, plug-in, or login is required. Just get straight to talking, messaging, and sharing your screen.',
@@ -402,9 +402,9 @@ module.exports = {
             },
             og: {
                 type: 'app-webrtc',
-                siteName: 'MiroTalk SFU',
+                siteName: 'iLearncenters Meet',
                 title: 'Click the link to make a call.',
-                description: 'MiroTalk SFU calling provides real-time video calls, messaging and screen sharing.',
+                description: 'iLearncenters Meet calling provides real-time video calls, messaging and screen sharing.',
                 image: 'https://sfu.mirotalk.com/images/mirotalksfu.png',
                 url: 'https://sfu.mirotalk.com',
             },
