@@ -32,7 +32,7 @@ const footer = document.getElementById('footer');
 // app/src/config.js - ui.brand
 let BRAND = {
     app: {
-        name: 'MiroTalk SFU',
+        name: 'iLearncenters Meet',
         title: 'iLearcenters Online Meeting Platform',
         description:
             'Start your next video call with a single click. No download, plug-in, or login is required. Just get straight to talking, messaging, and sharing your screen.',
@@ -50,9 +50,9 @@ let BRAND = {
     },
     og: {
         type: 'app-webrtc',
-        siteName: 'MiroTalk SFU',
+        siteName: 'iLearncenters Meet',
         title: 'Click the link to make a call.',
-        description: 'MiroTalk SFU calling provides real-time video calls, messaging and screen sharing.',
+        description: 'iLearncenters Meet calling provides real-time video calls, messaging and screen sharing.',
         image: 'https://sfu.mirotalk.com/images/mirotalksfu.png',
         url: 'https://sfu.mirotalk.com',
     },
