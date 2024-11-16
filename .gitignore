@@ -3,6 +3,7 @@
 
 # git folder
 .git
+.env
 
 # npm
 node_modules
@@ -15,7 +16,7 @@ package-lock.json
 .cache
 
 # personal
-config.js
+#config.js
 docker-compose.yml
 docker-push.sh
 rec
